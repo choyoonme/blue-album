@@ -1,0 +1,127 @@
+header {
+    width: 100%;
+    height: 75px;
+    background-color: bisque;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(18, 167, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: right;
+    font-family: 'Spartan', sans-serif;
+    padding-right: 10px;
+    font-size: 43px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+img {
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#members {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+#brian {
+    width: 80px;
+    height: 190px;
+    background-color: rgb(47, 47, 113);
+}
+
+#rivers {
+    width: 90px;
+    height: 150px;
+    background-color: rgb(29, 29, 104);
+}
+
+#pat {
+    width: 100px;
+    height: 200px;
+    background-color: beige;
+}
+
+#matt {
+    width: 100px;
+    height: 200px;
+    background-color: pink;
+}
+
+
+/* rivers */
+
+.member:nth-child(1) {
+    order: 2;
+}
+
+
+/* brian */
+
+.member:nth-child(2) {
+    order: 4
+}
+
+
+/* pat */
+
+.member:nth-child(3) {
+    order: 1;
+}
+
+
+/* matt */
+
+.member:nth-child(4) {
+    order: 3;
+}
+
+
+/* make the album centered and square.  */
+
+
+/* make weezer appear in the top right corner of container in a sans serif font. 
+style the members to appear as different size boxes.
+rearrange the order the members appear on the album. */
+
+
+/* to make the album square i will need what css rule 
+to make a div square i need width and height.
+how do i center a div vertically and horizontally? 
+set container to display:flex and align-items: center and justify-content: center*/
+
+
+/* make p elements display as rectangles going from left to right. what css rule do i use to change list styling to none on ul and li?
+I used list-style-type: none to take bullets away, targeting id selector members. 
+what css rule to i use to style members as rectangles? i know how to make a square. can i apply that same knowledge to a rectangle? yes. i can use width and height. what do i need to make li display from left to right? could i use align-items? */
+
+
+/* 
+can i use position to bring ul to bottom of container? what are my position options? */
