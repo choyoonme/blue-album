@@ -7,4 +7,4 @@ Used display flex, flex direction, and justify content to align objects. Added 4
 https://choyoonme.github.io/blue-album/
 
 ## mock up
-![screenshot of image](bluealbum.png)
+![screenshot of image](/assets/bluealbum.png)
